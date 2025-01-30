@@ -8,8 +8,60 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <header>
-       <nav></nav>
+  <header class="mx-auto">
+       <nav class="bg-amber-100 flex items-center justify-around">
+        <!-- Logo and name -->
+         <div class="flex items-center gap-3">
+          <img src="./assets/logo-header.png" alt="Logo">
+          <h3 class="font-medium text-2xl">Browse<span class="text-amber-600">4</span>Pets</h3>
+         </div>
+
+         <!-- middle part -->
+          <div class="flex gap-8">
+            <span class="text-xl font-light">Find a Pets</span>
+            <span class="text-xl font-light">Breeds</span>
+            <span class="text-xl font-light">Contact Us</span>
+          </div>
+
+          <!-- Last Part -->
+           <div class="flex items-center">
+            <!-- For icon -->
+             <div class="flex gap-3">
+              <img class="h-5"  src="./assets/noti.png" alt="notification">
+              <img class="h-5"  src="./assets/search.png" alt="search">
+             </div>
+             <!-- For Button -->
+              <div class="flex gap-2 ms-5">
+                <div>
+                <button class="px-7 py-1 border border-amber-300 rounded-md">Log In</button>
+              </div>
+              <div>
+                <button class="px-7 py-1 bg-amber-400 rounded-md text-white">Register</button>
+              </div>
+              </div>
+           </div>
+       </nav>
+
+       <!-- Main Head -->
+        <div class="flex max-w-6xl mx-auto mt-12">
+          <!-- Text -->
+           <div class="flex flex-col gap-8">
+            <!-- For titile and description -->
+            <div class="">
+              <h2 class="text-5xl font-medium mb-2">Pamper Your Pet,<br> Because They Deserve<br>the Bes</h2>
+              <p class="text-2xl text-gray-800">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+            </div>
+            <!-- For Button -->
+             <div>
+              <button class="px-5 py-1 bg-amber-400 rounded-md">Find a Pet</button>
+             </div>
+           </div>
+           <!-- Image -->
+            <div> 
+              <img src="./assets/cat-big.png" alt="">
+
+            </div>
+        </div>
 
   </header>
 
